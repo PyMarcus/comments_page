@@ -1,0 +1,65 @@
+.Comentario{
+    background-color: rgb(255, 255, 255);
+    border: 0.2rem solid  #242424;
+    color: rgb(10, 9, 9);
+    margin-top:5px;
+    padding: 5px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0, 0,0,0.5);
+}
+.itens_{
+    padding-left:10px;
+    width: 100%;
+}
+
+.nome{
+    font-size: 1.5rem;
+}
+.x{
+    background-color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+    float: right;
+    
+}
+.x:hover{
+    background-color: #fff;
+    color: red;
+}
+.x_{
+    width: 100%;
+    
+}
+.email a{
+    color:lightseagreen ;
+    text-decoration: none;
+}
+.email{
+    padding-bottom: 5px;
+}
+div[class="comentario"]{
+    font-size: 1.1rem;    
+    padding:5px 0;
+}
+.data{
+    margin-top:5px;
+    font-style: italic;
+}
+
+
+/*imagem login*/
+img{
+width: 80px;
+height: 80px;
+margin-right:10px;
+}
+.itens{
+    display: flex;
+}
+
+@media only screen and (min-width:540px){
+  .Comentario{
+      width: 70%;
+  }
+}
